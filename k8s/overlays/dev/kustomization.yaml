@@ -3,6 +3,6 @@ resources:
 
 images:
   - name: backend-image
-    newName: mahadev/backend-app
+    newName: prekshanshaiva001/backend-app
     newTag: v1
 
