@@ -53,7 +53,7 @@ pipeline {
                     git config user.name "$GIT_USER"
                     git config user.email "jenkins@example.com"
 
-                    git remote set-url origin https://$GIT_USER:$GIT_PASS@githum.com/Mahadevprasad-M-B/Devops-project.git
+                    git remote set-url origin https://$GIT_USER:$GIT_PASS@github.com/Mahadevprasad-M-B/Devops-project.git
 
                     git add .
                     git commit -m "update image to $TAG" || echo "No changes"
