@@ -4,5 +4,5 @@ resources:
 images:
   - name: backend-image
     newName: prekshanshaiva001/backend-app
-    newTag: v5
+    newTag: v6
 
