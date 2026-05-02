@@ -1,0 +1,8 @@
+resources:
+  - ../../base
+
+images:
+  - name: backend-image
+    newName: mahadev/backend-app
+    newTag: v1
+
