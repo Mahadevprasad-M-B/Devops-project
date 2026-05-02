@@ -57,7 +57,7 @@ pipeline {
 
                     git add .
                     git commit -m "update image to $TAG" || echo "No changes"
-                    git push -u origin main
+                    git push origin HEAD:main
                     '''
                 }
             }
